@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/poke-go-dictionary/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/poke-go-dictionary/static/js/main.0c9cb0f3.chunk.js",
+    "main.js.map": "/poke-go-dictionary/static/js/main.0c9cb0f3.chunk.js.map",
+    "runtime-main.js": "/poke-go-dictionary/static/js/runtime-main.6eba7a1b.js",
+    "runtime-main.js.map": "/poke-go-dictionary/static/js/runtime-main.6eba7a1b.js.map",
+    "static/js/2.c671d150.chunk.js": "/poke-go-dictionary/static/js/2.c671d150.chunk.js",
+    "static/js/2.c671d150.chunk.js.map": "/poke-go-dictionary/static/js/2.c671d150.chunk.js.map",
+    "static/js/3.851289b2.chunk.js": "/poke-go-dictionary/static/js/3.851289b2.chunk.js",
+    "static/js/3.851289b2.chunk.js.map": "/poke-go-dictionary/static/js/3.851289b2.chunk.js.map",
+    "index.html": "/poke-go-dictionary/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/poke-go-dictionary/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c671d150.chunk.js.LICENSE.txt": "/poke-go-dictionary/static/js/2.c671d150.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/poke-go-dictionary/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6eba7a1b.js",
+    "static/js/2.c671d150.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.0c9cb0f3.chunk.js"
+  ]
+}
