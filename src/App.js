@@ -10,7 +10,6 @@ function App() {
       setActiveInNavList(!activeInNavList)
       setNavList(['nav-list active'])
     } else {
-      console.log("hamParent");
       setActiveInNavList(!activeInNavList)
       setNavList(['nav-list'])
     }
