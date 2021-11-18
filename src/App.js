@@ -3,15 +3,16 @@ import './App.css';
 import siteIcon from './images_Used/pokeBall.png'
 
 function App() {
-  const [navList, setNavList] = useState("hamParent")
+  const [navList, setNavList] = useState(["nav-list"])
   const [activeInNavList, setActiveInNavList] = useState(true)
   var showList = () => {
     if (activeInNavList) {
-      setActiveInNavList = !activeInNavList
-      setNavList('hamParent active')
+      setActiveInNavList(!activeInNavList)
+      setNavList(['nav-list active'])
     } else {
       console.log("hamParent");
-      setNavList('hamParent')
+      setActiveInNavList(!activeInNavList)
+      setNavList(['nav-list'])
     }
   }
   return (
@@ -20,12 +21,12 @@ function App() {
         <div style={{ padding: '4px' }}>
           <a href="#"><img className="primary-icon" src={siteIcon} alt="Logo " /></a>
         </div>
-        <div className={navList} id="hamParent" onClick={() => showList}>
+        <div className="hamParent" id="hamParent" onClick={showList}>
           <div className="hamLine"></div>
           <div className="hamLine"></div>
           <div className="hamLine"></div>
         </div>
-        <ul className="nav-list" id="nav-list">
+        <ul className={[navList].join(" ")} id="nav-list">
           <li className="list-item"><a href="#">Home</a></li>
           <li className="list-item"><a href="#">Pokemon</a></li>
           <li className="list-item"><a href="#">About</a></li>
