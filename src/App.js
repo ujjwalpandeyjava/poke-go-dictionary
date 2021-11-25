@@ -18,7 +18,7 @@ function App() {
     <div>
       <nav className="navbar">
         <div style={{ padding: '4px' }}>
-          <a href="#"><img className="primary-icon" src={siteIcon} alt="Logo " /></a>
+          <a href="index.html"><img className="primary-icon" src={siteIcon} alt="Logo " /></a>
         </div>
         <div className="hamParent" id="hamParent" onClick={showList}>
           <div className="hamLine"></div>
@@ -26,12 +26,12 @@ function App() {
           <div className="hamLine"></div>
         </div>
         <ul className={[navList].join(" ")} id="nav-list">
-          <li className="list-item"><a href="#">Home</a></li>
-          <li className="list-item"><a href="#">Pokemon</a></li>
-          <li className="list-item"><a href="#">About</a></li>
-          <li className="list-item"><a href="#">Support</a></li>
-          <li className="list-item"><a href="#">Contact</a></li>
-          <li className="list-item"><a href="#">Join</a></li>
+          <li className="list-item"><a href="index.html">Home</a></li>
+          <li className="list-item"><a href="index.html">Pokemon</a></li>
+          <li className="list-item"><a href="index.html">About</a></li>
+          <li className="list-item"><a href="index.html">Support</a></li>
+          <li className="list-item"><a href="index.html">Contact</a></li>
+          <li className="list-item"><a href="index.html">Join</a></li>
         </ul>
       </nav >
 
